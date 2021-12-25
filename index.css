@@ -7,6 +7,7 @@ header{
 	}
 nav{
 	display: inline-block;
+	list-style: none;
 	}
 main{
 
