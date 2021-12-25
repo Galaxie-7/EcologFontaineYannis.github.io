@@ -1,16 +1,30 @@
 body{
+	font-size: 100%;
+	font-family: sans-serif;
 	}
 header{
+	background-color: rgba(13, 13, 158, 0.972);
 	}
-nav{ 
-}
+nav{
+	display: inline-block;
+	}
 main{
+
+}
+.Img-numero-1{
+	-webkit-mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+	mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
 }
 aside{
+	float: left;
+	position: absolute;
+	list-style: none;
 }
 main > h2{
+	text-align: center;
 }
-article{
+article >h2{
+	text-align: center;
 }
 footer{
 }
