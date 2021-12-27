@@ -3,19 +3,29 @@ body{
 	font-family: sans-serif;
 	}
 header{
-	background-color: rgba(13, 13, 158, 0.972);
+	background-color: #ececec;
 	}
-nav{
-	display: inline-block;
-	list-style: none;
+nav > ul > li {
+	font-size: 30px;
+	color: black;
+	list-style-type: none;
+	margin: 0%;
+	padding: 0%;
 	}
-main{
+li a{ 
+	float: left;
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+	}
+li a:hover:not(.active) {
+	background-color: rgba(59, 57, 57, 0.356);
+	}
+	  
+.active {
+	background-color: #04AA6D;
+	}
 
-}
-.Img-numero-1{
-	-webkit-mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
-	mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
-}
 aside{
 	float: left;
 	position: absolute;
