@@ -2,7 +2,7 @@ body{
 	font-family: 'PT Sans', sans-serif;
 	font-size: 13px;
 	font-weight: 400;
-	color: #4f5d6e;
+	color: hsl(214, 9%, 85%);
 	background: rgb(26, 49, 95);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(26, 49, 95, 1)), color-stop(10%, rgba(26, 49, 95, 1)), color-stop(24%, rgba(29, 108, 141, 1)), color-stop(37%, rgba(41, 136, 151, 1)), color-stop(77%, rgba(39, 45, 100, 1)), color-stop(90%, rgba(26, 49, 95, 1)), color-stop(100%, rgba(26, 49, 95, 1)));
 }
@@ -14,6 +14,13 @@ header{
 	margin-right: 40%;
 	border-radius: 30px;
 	background-color: lawngreen;
+}
+article > p{
+	font-size: 20px;
+}
+article > main{
+	font-size: 30px;
+	color: #000000;	
 }
 nav{
 	width: 100%;
@@ -44,21 +51,37 @@ li a{
 .dropdown{
 	float: right;
 }
+div > img{
+	border-radius:10px 10px;
+	box-shadow: 5px 4px 5px #000;
+}
 aside{
 	list-style: none;
+	float: right;
+}
+aside > ul > li{
+	margin-right:40px;
+	margin-top: 45px;
+	list-style: none;
+
+
 }
 main > h2{
 	text-align: center;
+	 
 }
 article{
 	text-align: center;
-	background: url(https://sain-et-naturel.ouest-france.fr/wp-content/uploads/2020/10/lecologie.jpg);
 	width: 100%;
-	height:600px;
-	
+	height:600px;	
 }
+footer > div > ul > li{
+	list-style: none;
+	display: inline-block;
+	float: right;
 }
-	
 footer{
+	font-size: 20px;
+	color: black;
 }
 
